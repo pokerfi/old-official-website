@@ -1,0 +1,222 @@
+@import "./normalize.css";
+@import '~antd/dist/antd.css';
+
+/* 样式的重置 */
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+header,
+menu,
+section,
+p,
+input,
+td,
+th,
+ins {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover {
+  color: #666;
+  text-decoration: underline;
+}
+
+i,
+em {
+  font-style: normal;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  outline: none;
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+html {
+  font-size: 67.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  position: relative;
+}
+
+
+
+/** antd 重写样式 */
+.ant-menu-dark.ant-menu-horizontal>.ant-menu-item:hover {
+  background-color: transparent !important;
+}
+
+.ant-menu-dark .ant-menu-item, .ant-menu-dark .ant-menu-item-group-title, .ant-menu-dark .ant-menu-item>a, .ant-menu-dark .ant-menu-item>span>a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.ant-menu-dark .ant-menu-item>a, .ant-menu-dark .ant-menu-item>span>a:hover {
+  color: #35ddc0;
+}
+
+.ant-menu-dark .ant-menu-item>a, .ant-menu-dark .ant-menu-item>span>a:focus {
+  color: #35ddc0;
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+  background-color: transparent;
+}
+
+.ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-sub, .ant-menu.ant-menu-dark .ant-menu-sub {
+  background: rgba(10, 18, 18, 0.4);
+}
+
+.ant-menu-item a::before {
+  content: none;
+}
+
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: transparent;
+}
+
+.newModal {
+  padding-bottom: 0;
+}
+
+.newModal, .newModal .ant-modal-content {
+  border-radius: 5px;
+  background-color: #172530;
+}
+
+.newModal .ant-modal-header {
+  border-radius: 5px 5px 0 0;
+  background-color: #172530;
+}
+
+.ant-modal-header {
+  border-bottom: 1px solid #32a5be;
+}
+
+.newModal .ant-modal-title {
+  color: #32a5be;
+}
+
+.newModal .ant-modal-footer {
+  border-radius: 0 0 5px 5px;
+  background-color: #172530;
+  color: #32a5be;
+  border-top: 1px solid #32a5be;
+}
+
+.newModal .ant-modal-body {
+  padding: 10px;
+}
+
+.newModal .ant-table-thead>tr>th {
+  text-align: center;
+  font-weight: bold;
+  color: #A7CBCF;
+  background: transparent;
+  border-bottom: 1px solid #1A2E38
+}
+
+.h5NewModal .ant-modal-title {
+  font-size: 24px;
+}
+
+.newModal .ant-table table {
+  text-align: center;
+  color: #4DDFFF;
+}
+
+.newModal .ant-table {
+  background: #09111F;
+}
+
+.ant-table-tbody>tr>td {
+  border-bottom: 1px solid #1A2E38
+}
+
+.newModal .ant-table-row {
+  cursor: pointer;
+}
+
+.newModal .ant-table-tbody>tr.ant-table-row:hover>td, .newModal .ant-table-tbody>tr>td.ant-table-cell-row-hover {
+  background: #1c2346;
+  transition-property: none !important;
+}
+
+.newModal .ant-table-placeholder .ant-table-cell {
+  color: #eaeaea;
+}
+
+.nopass{
+  color: #b61515!important;
+  font-weight:bold;
+}
+
+.governance-child {
+  margin-left: -20px;
+}
+
+.governance-child .ant-menu-vertical.ant-menu-sub, .ant-menu-vertical-left.ant-menu-sub, .ant-menu-vertical-right.ant-menu-sub {
+  min-width: 110px;
+}
+.pkss {
+  font-weight: bold !important;
+  color: #19FAEF !important;
+}
+
+.option-combustion {
+  position: absolute;
+  right: 47px;
+  top: 29px;
+}
+.option-combustion 
+.css-1okebmr-indicatorSeparator, .option-h5-combustion .css-1okebmr-indicatorSeparator {
+  display: none;
+}
+
+.option-h5-combustion {
+  position: absolute;
+  top: 63px;
+  z-index: 1;
+  right: 59px;
+}
